@@ -1,6 +1,6 @@
-Copyright 2018 - The LineageOS Project
+Copyright 2018 - The HavocOS Project
 
-# LineageOS device tree for Samsung Galaxy Note4 Edge (Snapdragon)
+# HavocOS device tree for Samsung Galaxy Note4 Edge (Snapdragon)
 ## Unified variants: SM-N915F/tblte, SM-N915FY/tbltexx, SM-N915G/tbltedt, SM-N915T/tbltetmo, SM-N915W8/tbltecan, SM-N915P/tbltespr, SM-N915R4/tblteusc, SM-N915V/tbltevzw
 
 Basic   | Specification List
