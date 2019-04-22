@@ -22,6 +22,12 @@ $(call inherit-product, vendor/havoc/config/common.mk)
 # Inherit from trlte device
 $(call inherit-product, device/samsung/tblte/device.mk)
 
+#export
+HAVOC_BUILD_TYPE := Official
+
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.havoc.maintainer=ripee
+
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := havoc_tblte
 PRODUCT_DEVICE := tblte
