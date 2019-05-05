@@ -26,7 +26,7 @@ $(call inherit-product, device/samsung/tblte/device.mk)
 HAVOC_BUILD_TYPE := Official
 
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.havoc.maintainer=ripee
+	ro.havoc.maintainer=Khalvat
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := havoc_tblte
