@@ -27,6 +27,18 @@ PRODUCT_COPY_FILES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/tblte/overlay
 
+# Keylayouts
+PRODUCT_COPY_FILES += \
+    device/samsung/tblte/keylayout/sec_touchkey.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/sec_touchkey.kl \
+    device/samsung/tblte/keylayout/sec_touchscreen.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/sec_touchscreen.kl \
+    device/samsung/tblte/keylayout/sec_touchkey.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/sec_e-pen.kl \
+    device/samsung/tblte/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/gpio-keys.kl \
+    device/samsung/tblte/keylayout/synaptics_rmi4_i2c.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/synaptics_rmi4_i2c.kl \
+    device/samsung/tblte/keylayout/Vendor_04e8_Product_7021.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/Vendor_04e8_Product_7021.kl \
+    device/samsung/tblte/idc/Synaptics_HID_TouchPad.idc:$(TARGET_COPY_OUT_SYSTEM)/usr/idc/Synaptics_HID_TouchPad.idc \
+    device/samsung/tblte/idc/sec_e-pen.idc:$(TARGET_COPY_OUT_SYSTEM)/usr/idc/sec_e-pen.idc \
+    device/samsung/tblte/idc/sec_touchscreen.idc:$(TARGET_COPY_OUT_SYSTEM)/usr/idc/sec_touchscreen.idc
+
 # Variant blobs script
 PRODUCT_COPY_FILES += \
     device/samsung/tblte/releasetools/variant_blobs_hook.sh:install/bin/variant_blobs_hook.sh \
